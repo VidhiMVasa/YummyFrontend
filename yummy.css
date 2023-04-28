@@ -1,0 +1,491 @@
+body{
+    margin: 0px;
+}
+
+/*Navbar*/
+#navdiv{
+    background-color:white;
+    width: 100%;
+}
+#icondiv{
+    width: 15%;   
+}
+#iconimg{
+    width: 120px;
+    margin:10px;
+    margin-left: 25%;
+    float: left;
+}
+.navbtn{
+    width: 80%;
+    float: right;
+}
+nav{
+    width:60%;
+    float:left;
+    margin:5px;
+    margin-right:100px;   
+}
+.mainNav{
+    margin:10px;
+    text-decoration: none;
+}
+.mainNav:hover{
+    text-decoration: underline 2px solid red;
+    text-underline-offset: 10px;
+
+    transition:0.3s;
+    /*animation-name: underline;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    }
+@keyframes underline{
+    from{text-decoration:none }
+    to{text-decoration:2px underline red;
+        text-underline-offset: 10px;}*/
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+.deepdd{
+    visibility: hidden;
+}
+.deepdd:hover{
+    visibility: visible;
+    position: relative;
+    right:2%;
+
+    
+}
+button{
+    width:10%;
+    top:20%;
+    padding-top:40px;
+}
+
+/*Home Page*/
+.home{
+    width:100%;
+    height: 650px;
+    background-color: lightgrey;
+    position:relative;
+    margin-top:25px;
+  }
+.HomeContent{
+    width:25%;
+    height: 40%;
+    float:left;
+    margin:10%;   
+    margin-top:15%;
+    position:absolute;animation-name: homeContent;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    position:absolute;
+  }
+  @keyframes homeContent {
+    0%   { left:-80px; top:0px;}
+    100% { left:30px; top:0px;}
+  }
+
+#Title{
+    color:black;
+    font-size: 90;
+    font-family: Papyrus;
+}
+#homeBtn{
+    width:180px;
+}
+#videoBtn{
+    width:150px;
+    height:200px;
+}
+#videoIcon{
+    width:40px;
+    height:40px;
+    margin:5px;
+}
+#homeWatchVideo:hover{
+    color:red;
+}
+#HomeImg{
+    width:35%;
+    height:65%;
+    float:right;
+    margin: 5%;
+}
+#Image{
+    animation-name: homeImage;
+    animation-timing-function: ease-in;
+    animation-duration: 1.2s;
+  }
+  @keyframes homeImage {
+    0%   {transform:scale(1.1,1.1)}
+    100% { transform:scale(1,1)}
+  }
+
+/*Aobut Us*/
+.about{
+    height:950px;
+    width: 100%;
+    background-color: antiquewhite;
+    padding:8%;
+}
+.abtTitle{
+    width:28%;
+   /* margin-top: 20px;*/
+}
+#abt,#abtus{
+    font-family: Papyrus;
+    display: inline;
+}
+.abtinfo{
+    margin-top: 1%;
+    margin-left: 1%;
+    position:relative;
+    height: 85%;
+}
+#abtTable{
+    width:60%;
+    height: 650px;
+    float:left;
+}
+#abtContact{
+    width:45%;
+    height:20%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    margin:8%;
+    margin-top:40%;
+}
+.abtArticle{
+    width:33%;
+    height:80%;
+    float: right;
+    font-family: Monaco;
+}
+video{
+    width: 100%;
+    height:48%;
+}
+
+/*About Us Why choose yummy?*/
+.abtWCY{
+    width: 100%;
+    height: 450px;
+    background-color:rgb(203, 190, 190);
+    padding-bottom:50px;
+}
+#abtWCY1{
+    width: 27%;
+    height: 95%;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    margin-top:3%;
+    margin-left:8%;
+}
+#abtBtn{
+    background-color: blanchedalmond;
+    width: 150px;
+    height: 50px;
+}
+#abtWCY2,#abtWCY3,#abtWCY4{
+    width: 17%;
+    height: 70%;
+    padding:2%;
+    background-color:white;
+    display: inline-block;
+    justify-content: center;
+    transition: transform .25s;   
+    transition-timing-function: ease-in;
+    margin-bottom:12%;
+}
+#abtWCY2:hover,#abtWCY3:hover,#abtWCY4:hover{
+    transform:scale(1.07);
+     
+}
+#WCY2Icon,#WCY3Icon,#WCY4Icon{
+    width:40%;
+    height: 30%;
+    margin:2%;
+    margin-top:2%;
+}
+
+/*About Counter*/
+
+.counter {
+    filter:brightness(50%);
+  
+  }
+  .parallax #CounterBackground{
+    background-image: url("img/stats-bg.jpg" );
+    width:100%;
+    height:500px;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: brightness(70%); */
+    /* background-size: cover; */
+  
+  }
+  #CounterDiv{
+    position:relative;
+  }
+
+  .contentCounter{
+    position: absolute;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0);
+    color:black;
+    top:30%;
+    left:5%;
+    margin-left:10%;
+    
+  }
+ /*Menu*/  
+.Menu{
+    height:1100px;
+    background-color: rgb(223, 212, 166);
+    margin-top:1.5%;
+    width:100%
+}
+
+ul .liMenu{
+    display:inline-block;
+    text-decoration: none;
+    color:gray;
+    list-style-type:none;
+    margin:20px;
+    font-size: medium;
+}
+.liMenu:hover{
+    color:red;
+    font-size:larger;
+    text-decoration: underline;
+
+}
+.YummyMenu{
+    font-family: Papyrus;
+}
+#MenuBar{
+    width:100%;
+}
+u{
+    text-underline-offset: 10px;
+}
+.MenuItem{
+    width:65%;
+    height:65%;
+    justify-content: center;
+}
+.center{
+    width:70%;
+    text-align: center;
+}
+.MenuCart{
+    width:50%;
+    height:40px;
+}
+/*Testimonials*/
+.testimonials{
+    width:100%;
+    height:400px;
+    margin-top:3%;
+    padding-top:2%;
+    background-color:bisque;    
+}
+#TestTagline{
+    font-family: Papyrus;
+}
+#indi{
+    top:95%;
+    /* padding:1%; */
+    bottom:50%;
+    padding-bottom:3%;
+} 
+.indicators{
+    border-radius: 50%;
+    background-color:red;
+}
+.personsays{
+    margin-left:40%;
+    margin-top:10%;
+}
+.testperson{
+    border:2px solid gray;
+    width:20%;
+    border-radius: 50%;
+    margin-left:10%;
+    margin-top:1%;
+}
+
+
+/*Events*/
+ 
+#event{
+    width: 100%;
+    height: 650px;
+    background-color: lightgray;
+}
+#Tagline{
+    font-family: Papyrus;
+}
+#eventflex{
+    height:450px;
+    width:32%;
+    margin:0.1%;
+    
+}
+.party{
+    background: rgba(0, 0, 0, 0.1);
+    filter:grayscale(10%);
+    filter:brightness(50%)
+}
+.container{
+    position: relative;
+    max-width: 80%;
+}
+.content{
+    position:absolute;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.1);
+    color:white;
+    bottom:10px;
+    left:30px;
+}
+.eventRS{
+    text-decoration: underline;
+    text-decoration-color: red;  
+}
+
+/*Chefs*/
+
+#chef{
+    width:100%;
+    height:680px;
+    background-color: blanchedalmond;
+}
+#chefTagline{
+    font-family: Papyrus;
+}
+#chefCard1,#chefCard2,#chefCard3{  
+    height:85%;
+    transition: all 0.3s;   
+   
+}
+#chefCard1:hover,#chefCard2:hover,#chefCard3:hover{
+    transform:scale(1.1);
+}
+
+/*Book A Table*/
+#bookaTable{
+    width:100%;
+    height:730px;
+    position:relative;
+    background-color:rgb(250, 243, 243);
+}
+#BATtagline{
+    font-family: Papyrus;
+}
+#BATimg{
+    float:left;
+    margin-left:10%;
+    margin-top:2%;
+    width:28%;
+    height:75%;
+    filter:brightness(105%);
+    display:inline-block;
+    position:absolute;
+}
+#BATform{
+    width:55%;
+    height:70%;
+    float:right;
+    margin:8% 5% 8% 4%;
+    display:inline-block;
+}
+.BATbox:focus{
+    border: 1px solid red;
+    outline:none;
+}
+.textareaBAT{
+    margin:3%;
+}
+.BATbtn{
+    width:30%;
+    height:50px;
+    border:none;
+}
+/*Gallery*/
+/*#gallery{
+    width:100%;
+    height:300px;
+    background-color: bisque;
+    padding:3%;
+}
+#GalleryTaglilne{
+    font-family: Papyrus;
+    width:100%;
+    
+}
+#gallerylist{
+    width:100%;
+    height:70%;
+}
+#galleryimage{
+    width: 100%;
+    height: 60%;
+}
+
+*/
+
+/*Contact*/
+.map-container{
+    width:100%;
+    height:700px;
+}
+#MAPtagline{
+    font-family: Papyrus;
+}
+#map{
+    border: none;
+    height:30%;
+    width:90%;
+    margin:5%;
+}
+.icons{
+    width:10%;
+}
+.contactDiv{
+    margin-left:5%;
+    margin-right:5%;
+}
+.contactBox:focus{
+    outline:none;
+    border:1px solid red;
+}
+
+
+/*footer*/
+#footer{
+    width:100%;
+    height:250px;
+    background-color: black;
+    color:white;
+
+}
+.footerIcon{
+    width:12%;
+    margin:5%;
+    border-radius: 50%;
+}
+.footerIcon1{
+    width:12%;
+    margin:1%;
+    border-radius: 50%;
+}
